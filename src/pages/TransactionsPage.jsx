@@ -6,7 +6,7 @@ import TransactionFilters from '../components/transactions/TransactionFilters';
 import TransactionModal from '../components/transactions/TransactionModal';
 import DeleteConfirmModal from '../components/transactions/DeleteConfirmModal';
 import { TableSkeleton } from '../components/common/Skeleton';
-import { transactionsApi } from '../../src/api/client';
+import { transactionsApi } from '../api/client';
 import { useToast } from '../components/common/Toast';
 import { Plus, Download, RefreshCw } from 'lucide-react';
 
